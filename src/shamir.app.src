@@ -17,13 +17,12 @@
  [
   {description, "shamir"},
   {vsn, git},
-  {modules, []},
+  {modules, [shamir]},
   {registered, []},
   {applications, [
                   kernel,
                   stdlib,
                   crypto
                  ]},
-  {mod, { shamir, []}},
   {env, []}
  ]}.
